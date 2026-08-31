@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" width="1400" height="980" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+  <rect width="1400" height="980" fill="#0d1117"/>
+
+  <text x="70" y="76" fill="#e8edf2" font-size="40" font-weight="600" letter-spacing="-0.5">An agent wallet, layer by layer</text>
+  <text x="70" y="112" fill="#7d8b99" font-size="21">Composed from public standards. Each layer answers a different question.</text>
+
+  <!-- Layer 1 : Agent runtime -->
+  <rect x="70" y="158" width="900" height="118" rx="7" fill="#141b24" stroke="#232d38"/>
+  <rect x="70" y="158" width="5" height="118" rx="2" fill="#2dd4bf"/>
+  <text x="104" y="196" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">RUNTIME</text>
+  <text x="104" y="230" fill="#e8edf2" font-size="26" font-weight="600">MCP server exposes the stack as tools</text>
+  <text x="104" y="258" fill="#94a3b1" font-size="19">register identity · check balance · pay another agent</text>
+
+  <!-- Layer 2 : Payment -->
+  <rect x="70" y="296" width="900" height="118" rx="7" fill="#141b24" stroke="#232d38"/>
+  <rect x="70" y="296" width="5" height="118" rx="2" fill="#2dd4bf"/>
+  <text x="104" y="334" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">PAYMENT</text>
+  <text x="104" y="368" fill="#e8edf2" font-size="26" font-weight="600">x402: settlement over HTTP 402</text>
+  <text x="104" y="396" fill="#94a3b1" font-size="19">server replies 402, agent pays, request replays. no API keys.</text>
+
+  <!-- Layer 3 : Authority -->
+  <rect x="70" y="434" width="900" height="118" rx="7" fill="#141b24" stroke="#2dd4bf" stroke-width="1.6"/>
+  <rect x="70" y="434" width="5" height="118" rx="2" fill="#2dd4bf"/>
+  <text x="104" y="472" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">AUTHORITY &#183; THE PART THAT MATTERS</text>
+  <text x="104" y="506" fill="#e8edf2" font-size="26" font-weight="600">Session key as an installed module</text>
+  <text x="104" y="534" fill="#94a3b1" font-size="19">scoped &#183; time-boxed &#183; spend-limited &#183; revocable without moving funds</text>
+
+  <!-- Layer 4 : Account -->
+  <rect x="70" y="572" width="900" height="118" rx="7" fill="#141b24" stroke="#232d38"/>
+  <rect x="70" y="572" width="5" height="118" rx="2" fill="#2dd4bf"/>
+  <text x="104" y="610" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">ACCOUNT</text>
+  <text x="104" y="644" fill="#e8edf2" font-size="26" font-weight="600">ERC-6551 token-bound account</text>
+  <text x="104" y="672" fill="#94a3b1" font-size="19">the identity NFT owns the wallet. transfer the token, the wallet follows.</text>
+
+  <!-- Layer 5 : Identity -->
+  <rect x="70" y="710" width="900" height="118" rx="7" fill="#141b24" stroke="#232d38"/>
+  <rect x="70" y="710" width="5" height="118" rx="2" fill="#2dd4bf"/>
+  <text x="104" y="748" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">IDENTITY</text>
+  <text x="104" y="782" fill="#e8edf2" font-size="26" font-weight="600">ERC-8004 identity registry</text>
+  <text x="104" y="810" fill="#94a3b1" font-size="19">an ERC-721. resolves to the agent&#8217;s registration file. mainnet Jan 2026.</text>
+
+  <!-- Right column : the gate -->
+  <rect x="1010" y="158" width="320" height="392" rx="7" fill="#101820" stroke="#2dd4bf" stroke-dasharray="5 5"/>
+  <text x="1042" y="196" fill="#2dd4bf" font-size="16" font-weight="700" letter-spacing="2.4">HUMAN GATE</text>
+  <text x="1042" y="234" fill="#e8edf2" font-size="24" font-weight="600">Above a spend</text>
+  <text x="1042" y="262" fill="#e8edf2" font-size="24" font-weight="600">threshold, a person</text>
+  <text x="1042" y="290" fill="#e8edf2" font-size="24" font-weight="600">approves. Enforced</text>
+  <text x="1042" y="318" fill="#e8edf2" font-size="24" font-weight="600">server-side.</text>
+  <text x="1042" y="366" fill="#94a3b1" font-size="18">Not a limitation.</text>
+  <text x="1042" y="392" fill="#94a3b1" font-size="18">The design work in</text>
+  <text x="1042" y="418" fill="#94a3b1" font-size="18">agent systems is</text>
+  <text x="1042" y="444" fill="#94a3b1" font-size="18">deciding what the</text>
+  <text x="1042" y="470" fill="#94a3b1" font-size="18">agent is not allowed</text>
+  <text x="1042" y="496" fill="#94a3b1" font-size="18">to do alone.</text>
+
+  <!-- Right column : open question -->
+  <rect x="1010" y="572" width="320" height="256" rx="7" fill="#1a1410" stroke="#8a6a3a"/>
+  <text x="1042" y="610" fill="#d9a441" font-size="16" font-weight="700" letter-spacing="2.4">STILL OPEN</text>
+  <text x="1042" y="648" fill="#e8edf2" font-size="22" font-weight="600">A 6551 account is</text>
+  <text x="1042" y="674" fill="#e8edf2" font-size="22" font-weight="600">not a 4337 account.</text>
+  <text x="1042" y="716" fill="#94a3b1" font-size="18">The spec never</text>
+  <text x="1042" y="742" fill="#94a3b1" font-size="18">mentions it. Something</text>
+  <text x="1042" y="768" fill="#94a3b1" font-size="18">has to implement</text>
+  <text x="1042" y="794" fill="#94a3b1" font-size="18" font-style="italic" fill-opacity="0.95">validateUserOp.</text>
+
+  <!-- connector -->
+  <path d="M 970 493 L 1010 493" stroke="#2dd4bf" stroke-width="1.6"/>
+  <circle cx="1010" cy="493" r="3.5" fill="#2dd4bf"/>
+
+  <text x="70" y="908" fill="#4a5560" font-size="18">Identity answers who. The account answers what owns it. The session key answers how much. Three questions, not three alternatives.</text>
+  <text x="70" y="944" fill="#3d4650" font-size="17">github.com/Sanketbhandari</text>
+</svg>

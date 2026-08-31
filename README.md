@@ -59,9 +59,22 @@ flowchart TB
     REG -.->|owns| TBA
 ```
 
+![Agent wallet stack](docs/diagrams/agent-wallet-stack.png)
+
 The agent's identity NFT owns the account. Transfer the token and the wallet goes with it, in
 one transaction, with no key handover. Authority is a module on top, so it can be narrowed or
 revoked without moving funds.
+
+## Why both 4337 and 7702
+
+A recurring question: if EIP-7702 lets an existing EOA delegate to contract code, is ERC-4337
+still needed? Yes. They answer different halves.
+
+![7702 and 4337](docs/diagrams/7702-vs-4337.png)
+
+A 7702-delegated EOA still needs a bundler to relay its operations and a paymaster to sponsor
+its gas. 7702 changed which accounts can be upgraded. It did not remove the infrastructure
+underneath them.
 
 ## What this is not
 

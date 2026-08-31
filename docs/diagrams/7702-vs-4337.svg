@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" width="1400" height="980" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+  <rect width="1400" height="980" fill="#0d1117"/>
+
+  <text x="70" y="78" fill="#e8edf2" font-size="42" font-weight="600" letter-spacing="-0.6">&#8220;Is 4337 dead now that we have 7702?&#8221;</text>
+  <text x="70" y="118" fill="#7d8b99" font-size="22">No. They solve different halves of the problem, and most production setups end up using both.</text>
+
+  <!-- LEFT : 7702 -->
+  <rect x="70" y="168" width="600" height="470" rx="8" fill="#141b24" stroke="#232d38"/>
+  <text x="106" y="212" fill="#2dd4bf" font-size="17" font-weight="700" letter-spacing="2.6">EIP-7702 &#183; LIVE SINCE PECTRA, MAY 2025</text>
+  <text x="106" y="258" fill="#e8edf2" font-size="34" font-weight="600">Upgrades the account</text>
+  <text x="106" y="300" fill="#b6c2cf" font-size="21">An existing EOA temporarily delegates to contract</text>
+  <text x="106" y="328" fill="#b6c2cf" font-size="21">code. Same address. Same private key.</text>
+
+  <text x="106" y="382" fill="#7d8b99" font-size="16" font-weight="700" letter-spacing="2">WHAT YOU GET</text>
+  <text x="106" y="418" fill="#b6c2cf" font-size="21">Batched transactions</text>
+  <text x="106" y="450" fill="#b6c2cf" font-size="21">Gas sponsorship</text>
+  <text x="106" y="482" fill="#b6c2cf" font-size="21">Session keys and scoped permissions</text>
+  <text x="106" y="514" fill="#b6c2cf" font-size="21">No migration. 100M+ existing EOAs, upgraded in place.</text>
+
+  <rect x="106" y="546" width="528" height="66" rx="6" fill="#101820" stroke="#2a333d"/>
+  <text x="126" y="576" fill="#7d8b99" font-size="19">Solves: users who already have an address and</text>
+  <text x="126" y="600" fill="#7d8b99" font-size="19">will never move to a new one.</text>
+
+  <!-- RIGHT : 4337 -->
+  <rect x="730" y="168" width="600" height="470" rx="8" fill="#141b24" stroke="#232d38"/>
+  <text x="766" y="212" fill="#2dd4bf" font-size="17" font-weight="700" letter-spacing="2.6">ERC-4337 &#183; LIVE SINCE MARCH 2023</text>
+  <text x="766" y="258" fill="#e8edf2" font-size="34" font-weight="600">Provides the rails</text>
+  <text x="766" y="300" fill="#b6c2cf" font-size="21">A parallel mempool for UserOperations, with the</text>
+  <text x="766" y="328" fill="#b6c2cf" font-size="21">infrastructure to validate, bundle and pay for them.</text>
+
+  <text x="766" y="382" fill="#7d8b99" font-size="16" font-weight="700" letter-spacing="2">WHAT YOU GET</text>
+  <text x="766" y="418" fill="#b6c2cf" font-size="21">EntryPoint, the shared settlement contract</text>
+  <text x="766" y="450" fill="#b6c2cf" font-size="21">Bundlers, with ERC-7562 validation rules</text>
+  <text x="766" y="482" fill="#b6c2cf" font-size="21">Paymasters, sponsorship policy, deposits and stake</text>
+  <text x="766" y="514" fill="#b6c2cf" font-size="21">Account factories for counterfactual addresses</text>
+
+  <rect x="766" y="546" width="528" height="66" rx="6" fill="#101820" stroke="#2a333d"/>
+  <text x="786" y="576" fill="#7d8b99" font-size="19">Solves: who relays it, who validates it,</text>
+  <text x="786" y="600" fill="#7d8b99" font-size="19">and who pays the gas.</text>
+
+  <!-- JOIN -->
+  <path d="M 670 400 L 700 400 L 700 400 L 730 400" stroke="#2dd4bf" stroke-width="2"/>
+  <circle cx="700" cy="400" r="18" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="700" y="408" fill="#2dd4bf" font-size="20" font-weight="700" text-anchor="middle">+</text>
+
+  <!-- BOTTOM -->
+  <rect x="70" y="678" width="1260" height="180" rx="8" fill="#101820" stroke="#2dd4bf" stroke-dasharray="5 5"/>
+  <text x="106" y="722" fill="#2dd4bf" font-size="17" font-weight="700" letter-spacing="2.6">TOGETHER</text>
+  <text x="106" y="768" fill="#e8edf2" font-size="30" font-weight="600">A 7702-delegated EOA still needs a bundler to relay its operations and a paymaster to</text>
+  <text x="106" y="806" fill="#e8edf2" font-size="30" font-weight="600">sponsor its gas. That is the 4337 stack.</text>
+  <text x="106" y="842" fill="#94a3b1" font-size="21">7702 changed who can be upgraded. It did not remove the infrastructure underneath.</text>
+
+  <text x="70" y="932" fill="#3d4650" font-size="17">github.com/Sanketbhandari</text>
+</svg>
